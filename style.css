@@ -1,8 +1,8 @@
 /** Styles for Odin Landing Page Project
-God help me this will be hard, but fun. **/
+God help me this will be hard, but fun.
 * {
     border: 1px red solid;
-}
+} **/
 
 body {
     display: flex;
@@ -115,7 +115,6 @@ button {
 .card {
     margin: 16px;
     width: 12em;
-    height: 12em;
     flex: 0 0 auto;
 }
 
