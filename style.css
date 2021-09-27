@@ -85,6 +85,7 @@ button {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    padding: 1em;
 }
 
 .cardcontainer {
@@ -92,13 +93,20 @@ button {
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
+    margin-bottom: 3em;
 }
 
 .card {
     margin: 16px;
     width: 12em;
     height: 12em;
-    flex-shrink: 0;
+    flex: 0 0 auto;
+}
+
+.headshot {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
 }
 
 .cta {
