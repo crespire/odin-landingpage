@@ -1,5 +1,9 @@
 /** Styles for Odin Landing Page Project
 God help me this will be hard, but fun. **/
+* {
+    border: 1px red solid;
+}
+
 body {
     display: flex;
     flex-flow: column nowrap;
@@ -54,6 +58,14 @@ button {
     font-size: 48px;
     font-weight: extra-bold;
     color:  #F9FAF8;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10px;
+    width: 6vw;
 }
 
 .leftcluster {
